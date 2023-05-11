@@ -25,3 +25,17 @@ void PrintSumfromMToN(Action<int> action)
     }
 }
 
+// int m = input("значение M");
+// int n = input("значение N");
+// int sum = 0;
+// System.Console.WriteLine(SumMToN(m, n, sum));
+
+// int SumMToN(int m, int n, int sum)
+// {
+//     if (m<=n)
+//     {
+//         SumMToN(m+1, n, sum + m);
+//     }
+//     System.Console.WriteLine(sum);
+//     return sum;
+// }
