@@ -19,10 +19,9 @@ void PrintSumfromMToN(Action<int> action)
 {
     int m = input("значение M");
     int n = input("значение N");
-    for (int i = m; i<=n; i++)
+    for (int i = m; i <= n; i++)
     {
         action(i);
     }
-
 }
 
