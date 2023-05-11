@@ -31,8 +31,7 @@ void PrintNumbersToN(int number)
     if (number > 0)
     {
         System.Console.Write($"{number} ");
-        number = number - 1;
-        PrintNumbersToN(number);
+        PrintNumbersToN(number-1);
     }
 }
 
